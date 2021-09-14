@@ -1,5 +1,9 @@
 .App {
+  padding-top: 50px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -37,5 +41,5 @@
   }
 }
 div {
-  margin-top: 50px;
+  margin-bottom: 50px;
 }

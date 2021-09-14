@@ -4,47 +4,29 @@ import Button from './Components/Button'
 export default function App() {
   return (
     <div className='App'>
+      Primary Green
       <div>
-        <Button primaryGreen small>
-          primary green S
-        </Button>
-        <Button secondaryGreen small>
-          secondary green S
-        </Button>
-        <Button primaryGrey small>
-          primary grey S
-        </Button>
-        <Button secondaryGrey small>
-          secondary grey S
-        </Button>
+        <Button primaryGreen small children='Button' />
+        <Button primaryGreen medium children='Button' />
+        <Button primaryGreen large children='Button' />
       </div>
+      Secondary Green
       <div>
-        <Button primaryGreen medium>
-          primary green M
-        </Button>
-        <Button secondaryGreen medium>
-          secondary green M
-        </Button>
-        <Button primaryGrey medium>
-          primary grey M
-        </Button>
-        <Button secondaryGrey medium>
-          secondary grey M
-        </Button>
+        <Button secondaryGreen small children='Button' />
+        <Button secondaryGreen medium children='Button' />
+        <Button secondaryGreen large children='Button' />
       </div>
+      Primary Grey
       <div>
-        <Button primaryGreen large>
-          primary green L
-        </Button>
-        <Button secondaryGreen large>
-          secondary green L
-        </Button>
-        <Button primaryGrey large>
-          primary grey L
-        </Button>
-        <Button secondaryGrey large>
-          secondary grey L
-        </Button>
+        <Button primaryGrey small children='Button' />
+        <Button primaryGrey medium children='Button' />
+        <Button primaryGrey large children='Button' />
+      </div>
+      Secondary Grey
+      <div>
+        <Button secondaryGrey small children='Button' />
+        <Button secondaryGrey medium children='Button' />
+        <Button secondaryGrey large children='Button' />
       </div>
     </div>
   )
